@@ -70,37 +70,8 @@ Bu sistem, bir sempozyum web sitesinin ihtiyaç duyduğu tüm özellikleri barı
 -Dökümanlar: PDF, DOC, DOCX, XLS, XLSX
 -Arşivler: ZIP, RAR
 
-4. Veritabanı Mimarisi
-Profesyonel ve güvenli veritabanı yapısı:
-Ana Tablolar:
-admin_users: Yönetici kullanıcı bilgileri
-login_attempts: Giriş denemeleri ve güvenlik logu
-umyos_sayfalar: Tüm sayfa içerikleri
-umyos_haberler: Haber/duyuru sistemi
-Güvenlik Özellikleri:
-UTF-8 karakter seti desteği (utf8mb4_unicode_ci)
-İndekslenmiş sorgular
-Prepared statements (SQL injection koruması)
-Timestamp takibi (oluşturma ve güncelleme tarihleri)
 
-5. Responsive Tasarım
-Modern ve mobil uyumlu arayüz:
-Flexbox ve Grid layout kullanımı
-Mobile-first yaklaşım
-Tablet ve telefon uyumluluğu
-Hamburger menü (mobil)
-Touch-friendly butonlar
-Optimized font boyutları
-
-6. Kullanıcı Deneyimi (UX) Özellikleri
-Sidebar Navigasyon: Tüm sayfalar için kolay erişim menüsü
-Modal Sistemleri: Haber detay, galeri görüntüleme
-Animasyonlar: Fade-in, slide-up efektleri
-Hover Efektleri: Kartlar, butonlar, linkler
-Loading States: Yükleme durumu göstergeleri
-Bildiri Mesajları: Başarılı/hata durumları için feedback
-
-7. Güvenlik Mekanikleri
+4. Güvenlik Mekanikleri
 Çok katmanlı güvenlik yaklaşımı:
 Input Validation: Tüm kullanıcı girdileri doğrulanır
 Output Escaping: XSS saldırılarına karşı koruma
